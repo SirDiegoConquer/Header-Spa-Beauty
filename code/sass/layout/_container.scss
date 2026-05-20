@@ -4,8 +4,5 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    @include breakpoint(tablethorizontal) {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+   
 }
