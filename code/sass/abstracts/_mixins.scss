@@ -44,4 +44,15 @@
   }
 }
 
+@mixin btn2() {
+  &:hover {
+  display: inline-block;
+  color: white;
+  background-color: $title-text;
+  padding: 16px 25px;
+  border-radius: 28px;
+  text-decoration: none;
+  }
+}
+
 

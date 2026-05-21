@@ -1,3 +1,64 @@
 .hero {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.hero .container{
+    display: flex;
+    align-items: start;
+    width: 50%;
+    padding: 0;
+}
+.hero__img {
+    position: absolute;
+    top: -50px;
+    right: 110px;
+    width: 30%;
+    height: 100px;
+    z-index: -2;
+}
+
+.hero__title {
+        font-size: 50px;
+        font-weight: 700;
+        color: $title-text;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+.hero__subtitle {
+        font-size: 18px;
+        color: $subtitle-text;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+.hero__buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+
+        
+}
+
+.hero__buttons .btn2 {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero__buttons .btn2 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
 
 }

@@ -1,3 +1,68 @@
 .activities {
+    display: flex;
+    position: relative;
+
+    .container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 60px;
+        width: 40%;
+        background-color: white;
+        padding: 10px 65px 10px 22px ;
+        border-radius: 10px;
+        
+        
+    }
+}
+
+.activities .container article p {
+    width: 100px;
+}
+
+.activities h3 {
+    font-size: 30px;
+    color: $title-text;
+    font-weight: 500;
+}
+
+.activities .container  p {
+    font-size: 14px;
+    color: $subtitle-text;
+    margin-top: 10px;
     
+}
+
+.activities__blog {
+    &--1 {
+        position: absolute;
+        top: -200px;
+        right: -45px;
+        width: 320px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+        z-index: -1;
+        h2{
+            color: $title-text;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+    }
+    &--2 {
+        position: absolute;
+        top: 38px;
+        right: 30px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+        z-index: -1;
+        h2{
+            color: $title-text;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+        
+    }
 }

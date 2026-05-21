@@ -26,6 +26,9 @@ nav.nav__principal {
     span {
         margin-left: 5px;
     }
+    :hover {
+        color: $bg-color-secondary;
+    }
 }
 
 div.header__logins {

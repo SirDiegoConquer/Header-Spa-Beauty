@@ -1,3 +1,7 @@
 .btn {
   @include btn();
 }
+
+.btn2 {
+  @include btn2();
+}
